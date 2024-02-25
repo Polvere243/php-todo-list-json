@@ -5,3 +5,33 @@
     box-sizing: border-box;
 }
 
+/* generici */
+
+body{
+    background-color: rgb(6, 6, 96);
+    padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+.container{
+    max-width: 500px;
+    min-height: 80vh;
+    margin: 0 auto;
+    background-color: rgb(237, 233, 165);
+    border-radius: 20px;
+}
+
+/* lista */
+
+.task-list{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    border: 1px solid dodgerblue;
+}
