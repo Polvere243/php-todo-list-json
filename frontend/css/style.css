@@ -1,5 +1,5 @@
 /* css reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,31 +7,42 @@
 
 /* generici */
 
-body{
+body {
     background-color: rgb(6, 6, 96);
     padding-top: 50px;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 42px;
 }
 
-.container{
+.container,
+form {
     max-width: 500px;
-    min-height: 80vh;
+    padding: 10px;
     margin: 0 auto;
     background-color: rgb(237, 233, 165);
     border-radius: 20px;
 }
 
+input {
+    padding: 5px 10px;
+}
+
+.form-btn {
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+
 /* lista */
 
-.task-list{
+.task-list {
     list-style-type: none;
     text-align: center;
 }
 
-li{
+li {
     border: 1px solid dodgerblue;
 }
